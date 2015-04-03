@@ -1,0 +1,75 @@
+<ProjectilesFile>
+	<projectile name="hadouken light" position_x="200" position_y="230" frames="30" frame_duration="3" speed_x="45" speed_y="0" damage="60" blockstun="16">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+	<projectile name="hadouken medium" position_x="200" position_y="230" frames="30" frame_duration="3" speed_x="50" speed_y="0" damage="60" blockstun="16">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+	<projectile name="hadouken fierce" position_x="200" position_y="230" frames="30" frame_duration="3" speed_x="55" speed_y="0" damage="60" blockstun="16">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+
+	<projectile name="super 1" position_x="200" position_y="230" frames="30" frame_duration="3" speed_x="50" speed_y="0" damage="60" blockstun="16">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+	<projectile name="super 2" position_x="205" position_y="230" frames="30" frame_duration="3" speed_x="50" speed_y="0" damage="60" blockstun="16">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+	<projectile name="super 3" position_x="210" position_y="230" frames="30" frame_duration="3" speed_x="50" speed_y="0" damage="60" blockstun="16">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+	<projectile name="super 4" position_x="215" position_y="230" frames="30" frame_duration="3" speed_x="50" speed_y="0" damage="60" blockstun="16">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+	<projectile name="super 5" position_x="220" position_y="230" frames="30" frame_duration="3" speed_x="50" speed_y="0" damage="60" blockstun="16">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+</ProjectilesFile>
