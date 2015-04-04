@@ -1,4 +1,46 @@
 <InputFile>
+<!--
+	<Input move_name="low">
+		<button value="1a"/>
+	</Input>
+	<Input move_name="low">
+		<button value="2a"/>
+	</Input>
+	<Input move_name="low">
+		<button value="3a"/>
+	</Input>
+	<Input move_name="overhead">
+		<button value="7a"/>
+	</Input>
+	<Input move_name="overhead">
+		<button value="8a"/>
+	</Input>
+	<Input move_name="overhead">
+		<button value="9a"/>
+	</Input>
+	<Input move_name="slash">
+		<button value="4a"/>
+	</Input>
+	<Input move_name="slash">
+		<button value="a"/>
+	</Input>
+	<Input move_name="slash">
+		<button value="6a"/>
+	</Input>
+-->
+	<Input move_name="slash">
+		<button value="*a"/>
+	</Input>
+	<Input move_name="overhead">
+		<button value="*b"/>
+	</Input>
+	<Input move_name="low">
+		<button value="*d"/>
+	</Input>
+	<Input move_name="low2">
+		<button value="*d"/>
+	</Input>
+
 	<Input move_name="dizzy">
 		<button value="*"/>
 	</Input>
@@ -129,33 +171,6 @@
 	<Input move_name="walk forward">
 		<button value="6"/>
 	</Input>
-	<Input move_name="slash">
-		<button value="4a"/>
-	</Input>
-	<Input move_name="slash">
-		<button value="a"/>
-	</Input>
-	<Input move_name="slash">
-		<button value="6a"/>
-	</Input>
-	<Input move_name="overhead">
-		<button value="7a"/>
-	</Input>
-	<Input move_name="overhead">
-		<button value="8a"/>
-	</Input>
-	<Input move_name="overhead">
-		<button value="9a"/>
-	</Input>
-	<Input move_name="low">
-		<button value="1a"/>
-	</Input>
-	<Input move_name="low">
-		<button value="2a"/>
-	</Input>
-	<Input move_name="low">
-		<button value="3a"/>
-	</Input>
 	<!-- On hit -->
 	<Input move_name="on_hit.air_knockdown">
 		<button value="*"/>
@@ -191,5 +206,8 @@
 	</Input>
 	<Input move_name="defense.crouch">
 		<button value="1"/>
+	</Input>
+	<Input move_name="weapon_collision">
+		<button value="*"/>
 	</Input>
 </InputFile>

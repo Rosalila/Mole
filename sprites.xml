@@ -184,6 +184,20 @@
             path="sprites/normal/crouch/light punch/4.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
+    <Move name="low2">
+        <Sprite align_x="-26" align_y="0" frame_number="1"
+            path="sprites/normal/crouch/light punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="132" align_y="0" frame_number="2"
+            path="sprites/normal/crouch/light punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="201" align_y="0" frame_number="3"
+            path="sprites/normal/crouch/light punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="247" align_y="0" frame_number="4"
+            path="sprites/normal/crouch/light punch/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
     <Move name="defense.stand">
         <Sprite align_x="26" align_y="-9" frame_number="1"
             path="sprites/defense/stand/1.png" scale="1"
@@ -329,5 +343,22 @@
             path="sprites/on hit/dizzy/2.png" scale="1" to_opponent="no" variable="current_image"/>
         <Sprite align_x="0" align_y="0" frame_number="9"
             path="sprites/on hit/dizzy/3.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="weapon_collision">
+        <Sprite align_x="110" align_y="0" frame_number="1"
+            path="sprites/weapon_collision/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="200" align_y="0" frame_number="2"
+            path="sprites/weapon_collision/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="315" align_y="0" frame_number="3"
+            path="sprites/weapon_collision/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="494" align_y="0" frame_number="4"
+            path="sprites/weapon_collision/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="659" align_y="0" frame_number="5"
+            path="sprites/weapon_collision/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
     </Move>
 </SpritesFile>

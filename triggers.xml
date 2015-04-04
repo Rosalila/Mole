@@ -57,22 +57,10 @@
 	</Move>
 	<Move name="slash">
 		<Trigger>
-			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
-			<condition left_exp="current_move" relational_op="=" right_exp="stand near light punch" to_opponent="no"/>
-		</Trigger>
-		<Trigger>
-			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
-			<condition left_exp="current_move" relational_op="=" right_exp="stand near light kick" to_opponent="no"/>
-		</Trigger>
-		<Trigger>
-			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
-			<condition left_exp="current_move" relational_op="=" right_exp="stand light kick" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
 		</Trigger>
 		<Trigger>
 			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
-		</Trigger>
-		<Trigger>
-			<condition left_exp="current_move" relational_op="=" right_exp="idle.land_cancel" to_opponent="no"/>
 		</Trigger>
 		<Trigger>
 			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
@@ -83,10 +71,10 @@
 	</Move>
 	<Move name="overhead">
 		<Trigger>
-			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
 		</Trigger>
 		<Trigger>
-			<condition left_exp="current_move" relational_op="=" right_exp="idle.land_cancel" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
 		</Trigger>
 		<Trigger>
 			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
@@ -98,6 +86,21 @@
 	<Move name="low">
 		<Trigger>
 			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="low2">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="low" to_opponent="no"/>
 		</Trigger>
 	</Move>
 	<Move name="super">
@@ -374,6 +377,11 @@
 		<Trigger>
 			<condition left_exp="current_move" relational_op="=" right_exp="idle.land_cancel" to_opponent="no"/>
 			<condition left_exp="dizzy.current_value" relational_op="=" right_exp="200" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="weapon_collision">
+		<Trigger>
+			<condition left_exp="colision.red_to_red" relational_op="=" right_exp="yes" to_opponent="no"/>
 		</Trigger>
 	</Move>
 </TriggersFile>

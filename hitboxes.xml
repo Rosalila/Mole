@@ -278,6 +278,37 @@
             </Hitboxes>
         </Frame>
     </Move>
+    <Move name="low2">
+        <Frame number="1">
+            <Hitboxes to_opponent="no" variable="blue">
+                <Hitbox x1="-53" x2="23" y1="283" y2="204"/>
+                <Hitbox x1="-104" x2="6" y1="220" y2="121"/>
+                <Hitbox x1="-84" x2="36" y1="135" y2="6"/>
+            </Hitboxes>
+            <Hitboxes to_opponent="no" variable="red"/>
+        </Frame>
+        <Frame number="3">
+            <Hitboxes to_opponent="no" variable="blue">
+                <Hitbox x1="-123" x2="174" y1="117" y2="7"/>
+            </Hitboxes>
+            <Hitboxes to_opponent="no" variable="red"/>
+        </Frame>
+        <Frame number="2">
+            <Hitboxes to_opponent="no" variable="blue">
+                <Hitbox x1="-138" x2="226" y1="110" y2="9"/>
+            </Hitboxes>
+            <Hitboxes to_opponent="no" variable="red">
+                <Hitbox x1="182" x2="395" y1="104" y2="7"/>
+            </Hitboxes>
+        </Frame>
+        <Frame number="4">
+            <Hitboxes to_opponent="no" variable="blue">
+                <Hitbox x1="-45" x2="32" y1="285" y2="203"/>
+                <Hitbox x1="-124" x2="46" y1="225" y2="128"/>
+                <Hitbox x1="-95" x2="40" y1="138" y2="6"/>
+            </Hitboxes>
+        </Frame>
+    </Move>
     <Move name="idle.jump">
         <Frame number="1">
             <Hitboxes to_opponent="no" variable="blue">
@@ -410,6 +441,12 @@
             <Hitboxes to_opponent="no" variable="blue">
                 <Hitbox x1="-60" x2="60" y1="10" y2="0"/>
             </Hitboxes>
+            <Hitboxes to_opponent="no" variable="red"/>
+        </Frame>
+    </Move>
+    <Move name="weapon_collision">
+        <Frame number="1">
+            <Hitboxes to_opponent="no" variable="blue"/>
             <Hitboxes to_opponent="no" variable="red"/>
         </Frame>
     </Move>
