@@ -85,16 +85,6 @@
             path="sprites/displacement/standing/1.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
-    <Move name="idle.jump">
-        <Sprite align_x="0" align_y="0" frame_number="1"
-            path="sprites/displacement/jump forward/7.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-    </Move>
-    <Move name="idle.land_cancel">
-        <Sprite align_x="0" align_y="0" frame_number="1"
-            path="sprites/displacement/jump forward/7.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-    </Move>
     <Move name="walk back">
         <Sprite align_x="90" align_y="0" frame_number="1"
             path="sprites/displacement/walk back/1.png" scale="1"
@@ -134,68 +124,68 @@
     <!-- Stand normal moves -->
     <Move name="slash">
         <Sprite align_x="92" align_y="0" frame_number="1"
-            path="sprites/normal/stand/light punch/1.png" scale="1"
+            path="sprites/attacks/slash/1.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="136" align_y="0" frame_number="2"
-            path="sprites/normal/stand/light punch/2.png" scale="1"
+            path="sprites/attacks/slash/2.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="343" align_y="0" frame_number="3"
-            path="sprites/normal/stand/light punch/3.png" scale="1"
+            path="sprites/attacks/slash/3.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="368" align_y="0" frame_number="4"
-            path="sprites/normal/stand/light punch/4.png" scale="1"
+            path="sprites/attacks/slash/4.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="140" align_y="0" frame_number="5"
-            path="sprites/normal/stand/light punch/5.png" scale="1"
+            path="sprites/attacks/slash/5.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
     <Move name="overhead">
         <Sprite align_x="33" align_y="33" frame_number="1"
-            path="sprites/normal/stand/medium punch/1.png" scale="1"
+            path="sprites/attacks/overhead/1.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="11" align_y="103" frame_number="2"
-            path="sprites/normal/stand/medium punch/2.png" scale="1"
+            path="sprites/attacks/overhead/2.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="-38" align_y="86" frame_number="3"
-            path="sprites/normal/stand/medium punch/3.png" scale="1"
+            path="sprites/attacks/overhead/3.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="350" align_y="0" frame_number="4"
-            path="sprites/normal/stand/medium punch/4.png" scale="1"
+            path="sprites/attacks/overhead/4.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="372" align_y="-32" frame_number="5"
-            path="sprites/normal/stand/medium punch/5.png" scale="1"
+            path="sprites/attacks/overhead/5.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="336" align_y="-31" frame_number="6"
-            path="sprites/normal/stand/medium punch/6.png" scale="1"
+            path="sprites/attacks/overhead/6.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
     <!-- Crouch normal moves -->
     <Move name="low">
         <Sprite align_x="-26" align_y="0" frame_number="1"
-            path="sprites/normal/crouch/light punch/1.png" scale="1"
+            path="sprites/attacks/low/1.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="132" align_y="0" frame_number="2"
-            path="sprites/normal/crouch/light punch/2.png" scale="1"
+            path="sprites/attacks/low/2.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="201" align_y="0" frame_number="3"
-            path="sprites/normal/crouch/light punch/3.png" scale="1"
+            path="sprites/attacks/low/3.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="247" align_y="0" frame_number="4"
-            path="sprites/normal/crouch/light punch/4.png" scale="1"
+            path="sprites/attacks/low/4.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
     <Move name="low2">
         <Sprite align_x="-26" align_y="0" frame_number="1"
-            path="sprites/normal/crouch/light punch/1.png" scale="1"
+            path="sprites/attacks/low/1.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="132" align_y="0" frame_number="2"
-            path="sprites/normal/crouch/light punch/2.png" scale="1"
+            path="sprites/attacks/low/2.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="201" align_y="0" frame_number="3"
-            path="sprites/normal/crouch/light punch/3.png" scale="1"
+            path="sprites/attacks/low/3.png" scale="1"
             to_opponent="no" variable="current_image"/>
         <Sprite align_x="247" align_y="0" frame_number="4"
-            path="sprites/normal/crouch/light punch/4.png" scale="1"
+            path="sprites/attacks/low/4.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
     <Move name="defense.stand">
@@ -210,139 +200,7 @@
     </Move>
     <Move name="on_hit.stand">
         <Sprite align_x="15" align_y="-10" frame_number="1"
-            path="sprites/on hit/stand/1.png" scale="1" to_opponent="no" variable="current_image"/>
-    </Move>
-    <Move name="on_hit.air_knockdown">
-        <Sprite align_x="120" align_y="0" frame_number="1"
-            path="sprites/on hit/air/1.png" scale="1" to_opponent="no" variable="current_image"/>
-    </Move>
-    <Move name="on_hit.air">
-        <Sprite align_x="120" align_y="0" frame_number="1"
-            path="sprites/on hit/air/1.png" scale="1" to_opponent="no" variable="current_image"/>
-    </Move>
-    <Move name="on_hit.grab_throw">
-        <Sprite align_x="286" align_y="-20" frame_number="1"
-            path="sprites/on hit/knockdown/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="2"
-            path="sprites/on hit/knockdown/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="3"
-            path="sprites/on hit/knockdown/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="4"
-            path="sprites/on hit/knockdown/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="5"
-            path="sprites/on hit/standup/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="6"
-            path="sprites/on hit/standup/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="7"
-            path="sprites/on hit/standup/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="8"
-            path="sprites/on hit/standup/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-    </Move>
-    <Move name="on_hit.grab_throw_kick">
-        <Sprite align_x="-116" align_y="-20" frame_number="1"
-            path="sprites/on hit/grab_throw_kick/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="-116" align_y="-20" frame_number="6"
-            path="sprites/on hit/grab_throw_kick/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="-116" align_y="-20" frame_number="7"
-            path="sprites/on hit/grab_throw_kick/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="-116" align_y="-20" frame_number="8"
-            path="sprites/on hit/grab_throw_kick/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="9"
-            path="sprites/on hit/standup/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="10"
-            path="sprites/on hit/standup/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="11"
-            path="sprites/on hit/standup/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="12"
-            path="sprites/on hit/standup/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-    </Move>
-    <Move name="on_hit.knockdown">
-        <Sprite align_x="87" align_y="-20" frame_number="1"
-            path="sprites/on hit/knockdown/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="2"
-            path="sprites/on hit/knockdown/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="3"
-            path="sprites/on hit/knockdown/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="4"
-            path="sprites/on hit/knockdown/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="5"
-            path="sprites/on hit/standup/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="6"
-            path="sprites/on hit/standup/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="7"
-            path="sprites/on hit/standup/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="8"
-            path="sprites/on hit/standup/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-    </Move>
-    <Move name="on_hit.air_knockdown_part2">
-        <Sprite align_x="87" align_y="-20" frame_number="1"
-            path="sprites/on hit/knockdown/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="2"
-            path="sprites/on hit/knockdown/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="3"
-            path="sprites/on hit/knockdown/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="4"
-            path="sprites/on hit/knockdown/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="5"
-            path="sprites/on hit/standup/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="6"
-            path="sprites/on hit/standup/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="7"
-            path="sprites/on hit/standup/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="87" align_y="-20" frame_number="8"
-            path="sprites/on hit/standup/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-    </Move>
-    <Move name="dizzy">
-        <Sprite align_x="0" align_y="0" frame_number="1"
-            path="sprites/on hit/dizzy/1.png" scale="1" to_opponent="no" variable="current_image"/>
-        <Sprite align_x="0" align_y="0" frame_number="2"
-            path="sprites/on hit/dizzy/2.png" scale="1" to_opponent="no" variable="current_image"/>
-        <Sprite align_x="0" align_y="0" frame_number="3"
-            path="sprites/on hit/dizzy/3.png" scale="1" to_opponent="no" variable="current_image"/>
-        <Sprite align_x="0" align_y="0" frame_number="4"
-            path="sprites/on hit/dizzy/1.png" scale="1" to_opponent="no" variable="current_image"/>
-        <Sprite align_x="0" align_y="0" frame_number="5"
-            path="sprites/on hit/dizzy/2.png" scale="1" to_opponent="no" variable="current_image"/>
-        <Sprite align_x="0" align_y="0" frame_number="6"
-            path="sprites/on hit/dizzy/3.png" scale="1" to_opponent="no" variable="current_image"/>
-        <Sprite align_x="0" align_y="0" frame_number="7"
-            path="sprites/on hit/dizzy/1.png" scale="1" to_opponent="no" variable="current_image"/>
-        <Sprite align_x="0" align_y="0" frame_number="8"
-            path="sprites/on hit/dizzy/2.png" scale="1" to_opponent="no" variable="current_image"/>
-        <Sprite align_x="0" align_y="0" frame_number="9"
-            path="sprites/on hit/dizzy/3.png" scale="1" to_opponent="no" variable="current_image"/>
+            path="sprites/on hit/1.png" scale="1" to_opponent="no" variable="current_image"/>
     </Move>
     <Move name="weapon_collision">
         <Sprite align_x="110" align_y="0" frame_number="1"
