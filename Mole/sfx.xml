@@ -1,2 +1,10 @@
 <SfxFile>
+  <Sound move="slash" file="slash.ogg"/>
+  <Sound move="overhead" file="overhead.ogg"/>
+  <Sound move="low" file="low.ogg"/>
+  <Sound move="on_hit.stand" file="on_hit.ogg"/>
+  <Sound move="intro" file="intro.ogg"/>
+  <Sound move="ko" file="ko.ogg"/>
+  <Sound move="blockstun.stand" file="blockstun.ogg"/>
+  <Sound move="blockstun.crouch" file="blockstun.ogg"/>
 </SfxFile>

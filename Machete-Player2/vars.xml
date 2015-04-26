@@ -1,0 +1,23 @@
+<VarsFile>
+	<Move name="blockstun.stand">
+		<Frame number="1">
+			<String variable="Animation.blocked_hit" value="on" to_opponent="yes"/>
+		</Frame>
+	</Move>
+	<Move name="blockstun.crouch">
+		<Frame number="1">
+			<String variable="Animation.blocked_hit" value="on" to_opponent="yes"/>
+		</Frame>
+	</Move>
+	<Move name="on_hit.stand">
+		<Frame number="1">
+			<String variable="Animation.hit" value="on" to_opponent="yes"/>
+			<Integer variable="dizzy.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
+		</Frame>
+	</Move>
+	<Move name="dizzy">
+		<Frame number="1">
+			<Integer variable="dizzy.current_value" value="0" relative="no" flipable="no" to_opponent="no"/>
+		</Frame>
+	</Move>
+</VarsFile>

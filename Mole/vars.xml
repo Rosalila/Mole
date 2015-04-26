@@ -1,39 +1,4 @@
 <VarsFile>
-	<Move name="idle.stand">
-		<Frame number="1">
-			<String variable="effect.shadow" value="off" to_opponent="no"></String>
-		</Frame>
-	</Move>
-	<Move name="super">
-		<Frame number="1">
-			<Integer variable="super.current_value" value="0" relative="no" flipable="no" to_opponent="no"/>
-			<String variable="effect.shadow" value="on" to_opponent="no"/>
-			<String variable="Animation.darkness" value="on" to_opponent="no"/>
-		</Frame>
-		<Frame number="4">
-			<String variable="super 1.trigger" value="on" to_opponent="no"></String>
-			<String variable="super 2.trigger" value="on" to_opponent="no"></String>
-			<String variable="super 3.trigger" value="on" to_opponent="no"></String>
-			<String variable="super 4.trigger" value="on" to_opponent="no"></String>
-			<String variable="super 5.trigger" value="on" to_opponent="no"></String>
-		</Frame>
-	</Move>
-
-	<Move name="slash">
-		<Frame number="1">
-			<Integer variable="super.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="overhead">
-		<Frame number="1">
-			<Integer variable="super.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="low">
-		<Frame number="1">
-			<Integer variable="super.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
 	<Move name="blockstun.stand">
 		<Frame number="1">
 			<String variable="Animation.blocked_hit" value="on" to_opponent="yes"/>
@@ -47,51 +12,6 @@
 	<Move name="on_hit.stand">
 		<Frame number="1">
 			<String variable="Animation.hit" value="on" to_opponent="yes"/>
-			<Integer variable="dizzy.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="on_hit.air">
-		<Frame number="1">
-			<String variable="Animation.hit" value="on" to_opponent="yes"/>
-			<Integer variable="dizzy.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="on_hit.air_knockdown">
-		<Frame number="1">
-			<String variable="Animation.hit" value="on" to_opponent="yes"/>
-			<Integer variable="dizzy.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="on_hit.air_knockdown_part2">
-		<Frame number="1">
-			<Integer variable="dizzy.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="on_hit.knockdown">
-		<Frame number="1">
-			<String variable="Animation.hit" value="on" to_opponent="yes"/>
-			<Integer variable="dizzy.current_value" value="20" relative="yes" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="on_hit.grab_throw_kick">
-		<Frame number="1">
-			<Integer variable="velocity_x" value="20" relative="no" flipable="no" to_opponent="no"/>
-		</Frame>
-		<Frame number="5">
-			<Integer variable="velocity_x" value="0" relative="no" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="on_hit.grab_throw">
-		<Frame number="1">
-			<Integer variable="velocity_x" value="-20" relative="no" flipable="no" to_opponent="no"/>
-		</Frame>
-		<Frame number="3">
-			<Integer variable="velocity_x" value="0" relative="no" flipable="no" to_opponent="no"/>
-		</Frame>
-	</Move>
-	<Move name="dizzy">
-		<Frame number="1">
-			<Integer variable="dizzy.current_value" value="0" relative="no" flipable="no" to_opponent="no"/>
 		</Frame>
 	</Move>
 </VarsFile>

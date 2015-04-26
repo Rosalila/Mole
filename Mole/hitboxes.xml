@@ -10,36 +10,6 @@
             </Hitboxes>
         </Frame>
     </Move>
-    <Move name="on_hit.air">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="red"/>
-            <Hitboxes to_opponent="no" variable="blue"/>
-        </Frame>
-    </Move>
-    <Move name="on_hit.grab_throw">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="red"/>
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-60" x2="60" y1="10" y2="0"/>
-            </Hitboxes>
-        </Frame>
-    </Move>
-    <Move name="on_hit.knockdown">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="red"/>
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-60" x2="60" y1="10" y2="0"/>
-            </Hitboxes>
-        </Frame>
-    </Move>
-    <Move name="on_hit.air_knockdown_part2">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="red"/>
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-60" x2="60" y1="10" y2="0"/>
-            </Hitboxes>
-        </Frame>
-    </Move>
     <Move name="idle.stand">
         <Frame number="1">
             <Hitboxes to_opponent="no" variable="blue">
@@ -102,16 +72,16 @@
         </Frame>
         <Frame number="2">
             <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-8" x2="83" y1="338" y2="283"/>
-                <Hitbox x1="-54" x2="134" y1="287" y2="147"/>
-                <Hitbox x1="-58" x2="78" y1="170" y2="6"/>
+                <Hitbox x1="33" x2="145" y1="368" y2="292"/>
+                <Hitbox x1="-5" x2="114" y1="283" y2="152"/>
+                <Hitbox x1="-27" x2="119" y1="163" y2="3"/>
             </Hitboxes>
         </Frame>
         <Frame number="3">
             <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-8" x2="77" y1="344" y2="279"/>
-                <Hitbox x1="-44" x2="126" y1="287" y2="149"/>
-                <Hitbox x1="-40" x2="118" y1="160" y2="4"/>
+                <Hitbox x1="12" x2="86" y1="352" y2="286"/>
+                <Hitbox x1="-19" x2="92" y1="278" y2="160"/>
+                <Hitbox x1="-6" x2="128" y1="167" y2="6"/>
             </Hitboxes>
         </Frame>
         <Frame number="4">
@@ -309,22 +279,6 @@
             </Hitboxes>
         </Frame>
     </Move>
-    <Move name="idle.jump">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-29" x2="46" y1="389" y2="304"/>
-                <Hitbox x1="-41" x2="22" y1="314" y2="164"/>
-                <Hitbox x1="-39" x2="68" y1="219" y2="54"/>
-            </Hitboxes>
-            <Hitboxes to_opponent="no" variable="red"/>
-        </Frame>
-    </Move>
-    <Move name="victory">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="blue"/>
-            <Hitboxes to_opponent="no" variable="red"/>
-        </Frame>
-    </Move>
     <Move name="intro">
         <Frame number="1">
             <Hitboxes to_opponent="no" variable="blue"/>
@@ -334,113 +288,6 @@
     <Move name="ko">
         <Frame number="1">
             <Hitboxes to_opponent="no" variable="blue"/>
-            <Hitboxes to_opponent="no" variable="red"/>
-        </Frame>
-    </Move>
-    <Move name="idle.land_cancel">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="blue"/>
-            <Hitboxes to_opponent="no" variable="red"/>
-        </Frame>
-    </Move>
-    <Move name="dizzy">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="5" x2="85" y1="353" y2="277"/>
-                <Hitbox x1="-54" x2="30" y1="323" y2="179"/>
-                <Hitbox x1="-49" x2="60" y1="198" y2="18"/>
-            </Hitboxes>
-            <Hitboxes to_opponent="no" variable="red"/>
-        </Frame>
-        <Frame number="2">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-53" x2="34" y1="368" y2="297"/>
-                <Hitbox x1="-50" x2="53" y1="309" y2="203"/>
-                <Hitbox x1="-36" x2="63" y1="222" y2="30"/>
-            </Hitboxes>
-        </Frame>
-        <Frame number="3">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-62" x2="17" y1="362" y2="290"/>
-                <Hitbox x1="-58" x2="21" y1="298" y2="190"/>
-                <Hitbox x1="-56" x2="53" y1="208" y2="38"/>
-            </Hitboxes>
-        </Frame>
-        <Frame number="4">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="2" x2="84" y1="355" y2="268"/>
-                <Hitbox x1="-57" x2="6" y1="313" y2="191"/>
-                <Hitbox x1="-57" x2="63" y1="205" y2="17"/>
-            </Hitboxes>
-        </Frame>
-        <Frame number="5">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-46" x2="37" y1="373" y2="294"/>
-                <Hitbox x1="-56" x2="44" y1="313" y2="188"/>
-                <Hitbox x1="-46" x2="53" y1="192" y2="43"/>
-            </Hitboxes>
-        </Frame>
-        <Frame number="6">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-71" x2="23" y1="361" y2="283"/>
-                <Hitbox x1="-69" x2="35" y1="289" y2="175"/>
-                <Hitbox x1="-55" x2="56" y1="184" y2="42"/>
-            </Hitboxes>
-        </Frame>
-        <Frame number="7">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-5" x2="80" y1="347" y2="273"/>
-                <Hitbox x1="-57" x2="13" y1="314" y2="181"/>
-                <Hitbox x1="-47" x2="60" y1="198" y2="29"/>
-            </Hitboxes>
-        </Frame>
-        <Frame number="8">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-47" x2="38" y1="370" y2="302"/>
-                <Hitbox x1="-69" x2="43" y1="309" y2="201"/>
-                <Hitbox x1="-47" x2="64" y1="239" y2="35"/>
-            </Hitboxes>
-        </Frame>
-        <Frame number="9">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-65" x2="25" y1="361" y2="285"/>
-                <Hitbox x1="-70" x2="26" y1="293" y2="178"/>
-                <Hitbox x1="-63" x2="65" y1="190" y2="20"/>
-            </Hitboxes>
-        </Frame>
-    </Move>
-    <Move name="super">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="blue"/>
-            <Hitboxes to_opponent="no" variable="red"/>
-        </Frame>
-        <Frame number="3">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="35" x2="113" y1="314" y2="247"/>
-                <Hitbox x1="17" x2="79" y1="253" y2="147"/>
-                <Hitbox x1="-27" x2="168" y1="161" y2="10"/>
-            </Hitboxes>
-        </Frame>
-        <Frame number="4">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="97" x2="181" y1="312" y2="247"/>
-                <Hitbox x1="76" x2="231" y1="269" y2="195"/>
-                <Hitbox x1="70" x2="192" y1="209" y2="32"/>
-                <Hitbox x1="-30" x2="100" y1="129" y2="35"/>
-            </Hitboxes>
-        </Frame>
-    </Move>
-    <Move name="on_hit.air_knockdown">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="blue"/>
-            <Hitboxes to_opponent="no" variable="red"/>
-        </Frame>
-    </Move>
-    <Move name="on_hit.grab_throw_kick">
-        <Frame number="1">
-            <Hitboxes to_opponent="no" variable="blue">
-                <Hitbox x1="-60" x2="60" y1="10" y2="0"/>
-            </Hitboxes>
             <Hitboxes to_opponent="no" variable="red"/>
         </Frame>
     </Move>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SpritesFile>
     <IgnoreColor blue="80" green="87" red="13"/>
+    <!--Extras-->
     <Move name="victory">
         <Sprite align_x="106" align_y="0" frame_number="1"
             path="sprites/extras/victory/1.png" scale="1"
@@ -79,12 +80,21 @@
         <Sprite align_x="-162" align_y="0" frame_number="9"
             path="sprites/extras/ko/9.png" scale="1" to_opponent="no" variable="current_image"/>
     </Move>
-    <!--Displacement-->
+    <!-- Idle -->
     <Move name="idle.stand">
         <Sprite align_x="92" align_y="0" frame_number="1"
             path="sprites/displacement/standing/1.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
+    <Move name="idle.crouch">
+        <Sprite align_x="39" align_y="0" frame_number="1"
+            path="sprites/displacement/crouching/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="41" align_y="0" frame_number="2"
+            path="sprites/displacement/crouching/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <!-- Walk -->
     <Move name="walk back">
         <Sprite align_x="90" align_y="0" frame_number="1"
             path="sprites/displacement/walk back/1.png" scale="1"
@@ -113,15 +123,7 @@
             path="sprites/displacement/walk forward/4.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
-    <Move name="idle.crouch">
-        <Sprite align_x="39" align_y="0" frame_number="1"
-            path="sprites/displacement/crouching/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-        <Sprite align_x="41" align_y="0" frame_number="2"
-            path="sprites/displacement/crouching/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
-    </Move>
-    <!-- Stand normal moves -->
+    <!-- Normals -->
     <Move name="slash">
         <Sprite align_x="92" align_y="0" frame_number="1"
             path="sprites/attacks/slash/1.png" scale="1"
@@ -159,35 +161,27 @@
             path="sprites/attacks/overhead/6.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
-    <!-- Crouch normal moves -->
     <Move name="low">
         <Sprite align_x="-26" align_y="0" frame_number="1"
-            path="sprites/attacks/low/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
+            path="sprites/attacks/low/1.png" scale="1" to_opponent="no" variable="current_image"/>
         <Sprite align_x="132" align_y="0" frame_number="2"
-            path="sprites/attacks/low/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
+            path="sprites/attacks/low/2.png" scale="1" to_opponent="no" variable="current_image"/>
         <Sprite align_x="201" align_y="0" frame_number="3"
-            path="sprites/attacks/low/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
+            path="sprites/attacks/low/3.png" scale="1" to_opponent="no" variable="current_image"/>
         <Sprite align_x="247" align_y="0" frame_number="4"
-            path="sprites/attacks/low/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
+            path="sprites/attacks/low/4.png" scale="1" to_opponent="no" variable="current_image"/>
     </Move>
     <Move name="low2">
         <Sprite align_x="-26" align_y="0" frame_number="1"
-            path="sprites/attacks/low/1.png" scale="1"
-            to_opponent="no" variable="current_image"/>
+            path="sprites/attacks/low/1.png" scale="1" to_opponent="no" variable="current_image"/>
         <Sprite align_x="132" align_y="0" frame_number="2"
-            path="sprites/attacks/low/2.png" scale="1"
-            to_opponent="no" variable="current_image"/>
+            path="sprites/attacks/low/2.png" scale="1" to_opponent="no" variable="current_image"/>
         <Sprite align_x="201" align_y="0" frame_number="3"
-            path="sprites/attacks/low/3.png" scale="1"
-            to_opponent="no" variable="current_image"/>
+            path="sprites/attacks/low/3.png" scale="1" to_opponent="no" variable="current_image"/>
         <Sprite align_x="247" align_y="0" frame_number="4"
-            path="sprites/attacks/low/4.png" scale="1"
-            to_opponent="no" variable="current_image"/>
+            path="sprites/attacks/low/4.png" scale="1" to_opponent="no" variable="current_image"/>
     </Move>
+    <!-- Defense -->
     <Move name="defense.stand">
         <Sprite align_x="26" align_y="-9" frame_number="1"
             path="sprites/defense/stand/1.png" scale="1"
@@ -198,6 +192,7 @@
             path="sprites/defense/crouch/1.png" scale="1"
             to_opponent="no" variable="current_image"/>
     </Move>
+    <!-- On hit -->
     <Move name="on_hit.stand">
         <Sprite align_x="15" align_y="-10" frame_number="1"
             path="sprites/on hit/1.png" scale="1" to_opponent="no" variable="current_image"/>
