@@ -7,4 +7,5 @@
   <Sound move="ko" file="ko.ogg"/>
   <Sound move="blockstun.stand" file="blockstun.ogg"/>
   <Sound move="blockstun.crouch" file="blockstun.ogg"/>
+  <Sound move="weapon_collision" file="weapon_collision.ogg"/>
 </SfxFile>
