@@ -29,8 +29,8 @@
         <Move name="defense.stand" frames="1" frame_duration="6" />
         <Move name="defense.crouch" frames="1" frame_duration="6" crouched="yes" />
         <!-- Blockstun -->
-        <Move name="blockstun.stand" frames="99999" frame_duration="0" />
-        <Move name="blockstun.crouch" frames="99999" frame_duration="0" crouched="yes" />
+        <Move name="blockstun.stand" frames="99" frame_duration="1" />
+        <Move name="blockstun.crouch" frames="99" frame_duration="1" crouched="yes" />
         <!-- Weapon collision -->
         <Move name="weapon_collision" velocity_x="-5" frames="5" frame_duration="6" />
     </Declarations>
