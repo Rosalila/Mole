@@ -1,0 +1,25 @@
+<InputFile>
+	<!-- Idle -->
+	<Input move_name="idle.stand">
+		<button value="5"/>
+	</Input>
+	<Input move_name="jump up">
+		<button value="8"/>
+	</Input>
+	<Input move_name="jump back">
+		<button value="7"/>
+	</Input>
+	<Input move_name="jump forward">
+		<button value="9"/>
+	</Input>
+	<Input move_name="kick">
+		<button value="*a"/>
+	</Input>
+	<!-- On hit -->
+	<Input move_name="on_hit.stand">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.air">
+		<button value="*"/>
+	</Input>
+</InputFile>

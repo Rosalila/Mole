@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpritesFile>
+    <IgnoreColor blue="80" green="87" red="13"/>
+    <Move name="intro">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="standing.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="ko">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="standing.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="victory">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="standing.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <!--Displacement-->
+    <Move name="idle.stand">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="standing.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="idle.jump">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="jump.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="idle.land_cancel">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="jump.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump back">
+        <Sprite align_x="-10" align_y="53" frame_number="1"
+            path="jump.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump forward">
+        <Sprite align_x="-10" align_y="53" frame_number="1"
+            path="jump.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump up">
+        <Sprite align_x="-10" align_y="53" frame_number="1"
+            path="jump.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="kick">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="kick.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.stand">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="hit.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.air">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="hit.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+</SpritesFile>

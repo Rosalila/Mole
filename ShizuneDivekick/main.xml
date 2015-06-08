@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no" ?>
+<MainFile>
+	<Declarations>
+		<!-- Bars -->
+		<bar variable="hp" max_value="1000" current_value="1000" periodic_modifier="0" period="0" alpha="255" r="255" g="0" b="0" x1="583" y1="18" x2="170" y2="56" image="misc/bars/hp.png"/>
+
+		<!-- Animation only Moves -->
+		<Move name="victory" frames="1" frame_duration="120"/>
+		<Move name="intro" frames="1" frame_duration="120"/>
+		<Move name="ko" frames="1" frame_duration="120"/>
+
+		<!-- Displacement Moves Triggers -->
+		<Move name="jump up" frames="6" frame_duration="6" velocity_y="40" acceleration_y="-2" land_cancelable="yes"/>
+		<Move name="jump forward" frames="6" frame_duration="6" velocity_y="40" acceleration_y="-2" velocity_x="15" land_cancelable="yes"/>
+		<Move name="jump back" frames="6" frame_duration="6" velocity_y="40" acceleration_y="-2" velocity_x="-15" land_cancelable="yes"/>
+
+		<!-- Idle Moves -->
+		<Move name="idle.stand" frames="4" frame_duration="6" separate_blue="5"/>
+		<Move name="idle.land_cancel" frames="2" frame_duration="2" separate_blue="5"/>
+		<Move name="idle.jump" frames="1" repeat_from="1" frame_duration="100" inherits_velocity="yes" land_cancelable="yes" friction="yes"/>
+
+		<!-- Normal Attacks -->
+		<Move name="kick" frames="100" frame_duration="5" damage="1000" blockstun="8" inherits_velocity="no" separate_red="40" land_cancelable="yes" is_attack="yes" friction="yes" velocity_x="20" velocity_y="-40"/>
+
+		<!-- On Hits -->
+		<Move name="on_hit.stand" frames="5" frame_duration="4"/>
+		<Move name="on_hit.air" frames="50" frame_duration="2" acceleration_y="-3" velocity_x="-20" velocity_y="25" land_cancelable="yes"/>
+	</Declarations>
+</MainFile>
